@@ -1,104 +1,92 @@
 /** 
-* Portfolio William Espindola
-* @project Portifolio William Espindola
-* @version 2.0
-* @author William Espindola - falecom@williamespindola.com.br
-* @copyright 2011  William Espindola
-* @colordef #555555; Cinza
-* @colordef #306785; Azul 
-* @fontdef	Helvetica
-*/
+ * William Espindola
+ * @project William Espindola personal site
+ * @version 3.0
+ * @author William Espindola - oi@williamespindola.com.br
+ * @copyright 2011  William Espindola
+ * @fontdef	Lucida Grande
+ */
 html, body {
-	height:100%;
-	font:small "Lucida Grande", Geneva, Verdana, sans-serif;
-	color:#555555;
-	background:#e9e9e9 url(../img/main.gif) repeat;
+  height:100%;
+  font:small "Lucida Grande", Geneva, Verdana, sans-serif;
+  color:#555555;
 }
 p { line-height:1.6; }
 body{
-	min-height:100%;
-	border-top:3px solid #306785;
-	position:relative;
-	margin-bottom:2em;
-}
-.link-instinfo{
-	font-size:1.3em;
-	color:#306785;
-	font-weight:bold;
-	font-style:italic;
-	font-family: "Arial Black";
+  min-height:100%;
+  border-top:3px solid #306785;
+  position:relative;
+  margin-bottom:2em;
 }
 .ifirst{ color:#42a21f; }
 .isecont{
-	font-size:1em;
-	color:#42a21f;
+  font-size:1em;
+  color:#42a21f;
 }
 .phpsp-link {
-    color:#1868a7;
-    font-weight:bold;
-    font-style: italic;
+  color:#1868a7;
+  font-weight:bold;
+  font-style: italic;
 }
 h5{
-	 color:#555555;
-	 font-size:1.1em;
-	 font-weight:bold;
-	 text-shadow:#FFFFFF 1px 1px;
+  color:#555555;
+  font-size:1.1em;
+  font-weight:bold;
 }
 header{height:7em;}
 header h1{
-	color:#306785;
-	font-size:3.3em;
-	font-weight:bold;
-	text-shadow:#bbbbbb 1px 2px 1px;
-	margin:0.5em 0 0 0.8em;
+  color:#306785;
+  font-size:3.3em;
+  font-weight:bold;
+  margin:0.5em 0 0 0.8em;
 }
 header h5{
-    display:inline-block;
-	margin:0 0 0 3em;
+  display:inline-block;
+  margin:0 0 0 3em;
 }
 nav{
-	float:right;
-	margin:-4em 8em 0 0;
+  float:right;
+  margin:-4em 8em 0 0;
 }
 nav a {
-	display:inline-block;
-	margin:0.4em;
+  display:inline-block;
+  margin:0.4em;
 }
 #history{
-	width:90%;
-	margin:0 0 2em 4em;
+  width:90%;
+  margin:0 0 2em 4em;
 }
 #history h5{margin:1em 0 1em 0;}
 #history p{text-align:justify;}
 .works{
-	position:relative;
-	margin-left:0.5em;
+  position:relative;
+  margin-left:0.5em;
 }
 .works h5{ padding:3px; }
 .works a{ color:#FFFFFF; }
 .works a:hover{ 
-	text-decoration:underline;
-	color:#306785; 
+  text-decoration:underline;
+  color:#306785; 
 }
 .works ul li{
-	width:250px;
-	height:168px;
-	float:left;
-	margin:0 0 2em 2em;
-	position:relative;
+  width:250px;
+  height:168px;
+  float:left;
+  margin:0 0 2em 2em;
+  position:relative;
 }
 .work img{ border:5px solid #cccccc; }
 footer{
-	position: relative;
-	margin-top:-30px; 
-	height:30px;
-	clear:both;
-	text-align:center;
+  position: relative;
+  margin-top:-30px; 
+  height:30px;
+  clear:both;
+  text-align:center;
 }
 body:before {
-    content:"";
-    height:100%;
-    float:left;
-    width:0;
-    margin-top:-32767px;
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;
 }
